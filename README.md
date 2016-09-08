@@ -4,5 +4,5 @@ This simple example configuration shows how to
 * compile a library,
 * compile executable,
 * link library to executable,
-* add customm rules and
+* add custom rules and
 * configure the compiler.
