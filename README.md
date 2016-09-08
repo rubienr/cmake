@@ -1,5 +1,8 @@
-# A Simple Cmake C/C++ Example
+# Yet an other simple CMake Example
 This simple example configuration shows how to
-* compile to library,
-* link library to binary and
-* add customm rules,
+* include C in C++,
+* compile a library,
+* compile executable,
+* link library to executable,
+* add customm rules and
+* configure the compiler.
