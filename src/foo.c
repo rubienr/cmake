@@ -5,5 +5,5 @@
 #include <stdio.h>
 
 void myprint(int i) {
-    printf("myprint: i=%d", i);
+    printf("myprint() i = %d", i);
 }

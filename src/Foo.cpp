@@ -11,5 +11,5 @@ Foo::Foo() {
 }
 
 void Foo::print() {
-    std::cout << "f = " << f << std::endl;
+    std::cout << "Foo::print() f = " << f << std::endl;
 }

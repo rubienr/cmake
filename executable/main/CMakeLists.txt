@@ -4,6 +4,8 @@
 
 SET(BINARY "MyMain")
 
+include(${PROJECT_SOURCE_DIR}/build-settings/custom_rules.cmake)
+
 set(SOURCE_FILES main.cpp)
 
 include_directories(

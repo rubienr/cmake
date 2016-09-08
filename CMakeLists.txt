@@ -3,14 +3,10 @@
 #
 
 cmake_minimum_required(VERSION 3.5)
-project(MyCmykeExample)
+project(MyCmakeExample)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-
-set(CDEBUG "")
-set(CXXDEBUG "")
 include(./build-settings/compile_settings_global.cmake)
 add_subdirectory(include)
 add_subdirectory(src)
 add_subdirectory(test)
-add_subdirectory(mlayout)
+add_subdirectory(executable)
